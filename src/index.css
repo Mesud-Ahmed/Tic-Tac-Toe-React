@@ -54,7 +54,7 @@ header img {
   padding: 2rem;
   border-radius: 6px;
   background: linear-gradient(#383624, #282617);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 20px rgba(67, 107, 87, 0.5);
   position: relative;
  }
  
@@ -93,7 +93,7 @@ header img {
  
  
  #players button:hover {
-  color: #f8ca31;
+  color: #7a57f7;
  }
  .player-name {
   display: inline-block;
@@ -108,14 +108,14 @@ header img {
   text-align: center;
  }
  #players.highlight-player li.active {
-  border-color: #f6e35a;
+  border-color: #7a57f7;
   animation: pulse 2s infinite ease-in-out;
  }
  
  
  #players.highlight-player li.active .player-name,
  #players.highlight-player li.active .player-symbol {
-  color: #f6e35a;
+  color: #7a57f7;
  }
  .player-symbol {
   margin-left: 1rem;
@@ -216,7 +216,7 @@ header img {
   font-family: 'Caprasimo', cursive;
   font-size: 4rem;
   text-align: center;
-  color: #fcd256;
+  color: #4f77e7;
   margin: 0;
  }
  
@@ -233,8 +233,8 @@ header img {
   margin: 0 auto;
   font-size: 1.5rem;
   background: none;
-  border: 2px solid #fcd256;
-  color: #fcd256;
+  border: 2px solid #4f77e7;
+  color: #4f77e7;
   padding: 0.5rem 1rem;
   border-radius: 4px;
   cursor: pointer;
@@ -244,13 +244,43 @@ header img {
  
  
  #game-over button:hover {
-  background: #fcd256;
+  background: #4f77e7;
   color: #3f3b00;
   transform: scale(1.1);
-  box-shadow: 0 0 20px rgba(255, 187, 0, 0.8);
+  box-shadow: 0 0 20px rgba(121, 203, 214, 0.8);
  }
  
 
+
+ #game-hints {
+  text-align: center;
+  color: #46432f;
+ }
+ 
+ 
+ #game-hints h2 {
+  font-family: 'Caprasimo', cursive;
+  font-size: 2rem;
+  margin: 0;
+ }
+ 
+ 
+ #game-hints ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+ }
+ 
+ 
+ #game-hints button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: #23221f;
+  font: inherit;
+  margin-top: 1.5rem;
+ }
+ 
 
 
 
